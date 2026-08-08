@@ -1,8 +1,7 @@
 import re
 from playwright.sync_api import sync_playwright
 
-SEEDS = ["85", "86", "87", "88", "89", "90", "91", "92", "93", "94"]  # Your 10 assigned seeds
-EXPECTED_TOTAL = 2498651  # Precomputed target sum
+SEEDS = ["85", "86", "87", "88", "89", "90", "91", "92", "93", "94"]
 
 def main():
     total = 0
